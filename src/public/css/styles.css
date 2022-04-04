@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;  
+  background-image: linear-gradient(to left,#FF6163,#FDDE6C , #CFFDBC,#137E6D) ;
+  
+}
+/* Fomularrio*/
+.form__container{
+  max-width: 40rem;
+  margin: 5rem auto;
+}
+
+.form__container fieldset{
+  border: 2px solid #000 ;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.form__container legend{
+  background-color: #005485;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.labe_input{
+  display: flex;
+margin-bottom: 1rem;
+}
+.labe_input input{
+  border-radius: 5px;
+  height: 2rem;
+  color: #F10C45 ;
+  font-weight: 900;
+}
+
+.labe_input  label{
+  flex-basis: 20rem;
+  font-weight: 800;
+  color: #1B2431;
+  margin-right: 50px;
+  }
+
+  /*Btn*/
+  .btn{
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+.btn:hover{
+  background-color: #769c02;
+  cursor: pointer;
+}
+
+/*Total paragraph*/
+.paragraph{
+  text-align: center;
+  font-weight: 800;
+  color: #1B2431;
+  padding-bottom: 2rem;
+  
+
+}
+
+b{
+  color:#F10C45 ;
+}
